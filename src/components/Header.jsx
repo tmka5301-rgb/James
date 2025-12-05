@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="flex justify-between pl-10 items-center bg-purple-400 pl-20 pr-20 pb-3 pt-3 w-[1440px] h-[68px]">
+    <div className="flex justify-between pl-10 bg-gray-300 items-center pl-20 pr-20 pb-3 pt-3 ">
       <div className="w-19 h9 text-3xl font-bold">James</div>
       <div className="flex justify-between pr-10 gap-5 items-center">
         <a
@@ -14,8 +14,11 @@ export const Header = () => {
         <button>Work</button>
         <button>Testimonials</button>
         <button>Contact</button>
-        <button className="w-9 h-9 ">
-          <img src="./vector.png" alt="" />
+        <button>
+          <img src="./divider.png" alt="" />
+        </button>
+        <button>
+          <img className="w-9 h-9 " src="./nar.png" alt="" />
         </button>
         <button className="w-34 h-9 bg-black rounded-xl text-white ">
           Download CV
