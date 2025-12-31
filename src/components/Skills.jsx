@@ -3,9 +3,9 @@ import { stacks2 } from "@/constants/Stacks2";
 
 export const Skills = () => {
   return (
-    <div className="flex  flex-col justify-center items-center pl-20 pr-20 pb-24 pt-24">
+    <div className="flex  flex-col justify-center items-center pl-20 pr-20 pb-24 pt-24 bg-gray-900">
       <div className="flex flex-col justify-center items-center">
-        <p className="text-center bg-gray-300 rounded-xl w-[75px] h-7">
+        <p className="text-center bg-gray-500 rounded-xl w-[75px] h-7">
           Skills
         </p>
         <p className="text-center pt-4">

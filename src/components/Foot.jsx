@@ -4,7 +4,7 @@ export const Foot = () => {
   return (
     <div className="flex flex-col pl-20 pr-20 pb-24 pt-24">
       <div className="flex flex-col justify-center items-center">
-        <p className=" justify-center text-center rounded-xl bg-gray-300 w-[115px] h-7 pb-4">
+        <p className=" justify-center text-center rounded-xl bg-gray-500 w-[115px] h-7 pb-4">
           Get in touch
         </p>
         <p className="pt-4 pb-20 w-xl text-center">
@@ -16,7 +16,7 @@ export const Foot = () => {
         <div className="flex flex-col w-[436px] items-center justify-center ">
           <div className="flex gap-4 items-center">
             <img className="w-8 h-8" src="./msg.png" alt="" />
-            <div className="text-2xl font-bold ">James@pinecone.mn</div>
+            <div className="text-2xl font-bold ">Tutu@uruuulsudlal.mn</div>
             <img className="w-8 h-8" src="./copy.png" alt="" />
           </div>
           <div className="flex gap-4 items-center pt-5">

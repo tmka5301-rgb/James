@@ -10,7 +10,7 @@ import { Work } from "@/components/Work";
 
 export const Home = () => {
   return (
-    <div className="max-w-7xl w-full m-auto ">
+    <div className="max-w-7xl w-full m-auto bg-black text-white">
       <Header />
       <Tom />
       <Main1 />

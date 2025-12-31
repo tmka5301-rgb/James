@@ -2,9 +2,9 @@ import { Etext } from "@/constants/Etext";
 
 export const Experience = () => {
   return (
-    <div className="flex flex-col justify-center items-center pl-20 pr-20 pb-24 pt-24 bg-gray-100">
+    <div className="flex flex-col justify-center items-center pl-20 pr-20 pb-24 pt-24 bg-gray-900">
       <div className="flex flex-col justify-center items-center">
-        <p className="justify-center text-center rounded-xl bg-gray-300 w-[115px] h-7 pb-4">
+        <p className="justify-center text-center rounded-xl bg-gray-500 w-[115px] h-7 pb-4">
           Experience
         </p>
         <p className="pt-4 pb-20">
@@ -14,7 +14,7 @@ export const Experience = () => {
 
       <div className=" space-y-12 ">
         {Etext.map(({ image, title, text, date }) => (
-          <div className="flex justify-between gap-y-4 p-8 rounded-xl bg-white w-4xl h-full">
+          <div className="flex justify-between gap-y-4 p-8 rounded-xl bg-gray-800 text-white w-4xl h-full">
             <div className="">
               <img src={image} alt="" />
             </div>

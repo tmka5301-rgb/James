@@ -6,7 +6,7 @@ export const Main1 = () => {
       <div className="flex w-7xl h-[364px] ">
         <div className="w-[600px] h-[364px] flex-col  ">
           <div className="w-[376px] h-72px text-3xl font-bold flex">
-            Hi, I'm James 👋
+            Hi, I'm Ohidiin Uruul Sudlaach 👋
           </div>
           <div className="pt-2">
             I specialize in full stack development, particularly with React.js
@@ -52,7 +52,7 @@ export const Main1 = () => {
         </div>
         <div className="w-[568px] h-[364px] justify-items-end">
           {" "}
-          <img className="w-[280px] h-80" src="./james.webp" alt="" />
+          <img className="w-[280px] h-80 " src="./james.webp" alt="" />
         </div>
       </div>
     </div>
