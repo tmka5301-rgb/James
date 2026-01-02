@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="flex justify-between pl-10 bg-gray-900 items-center pl-20 pr-20 pb-3 pt-3 ">
+    <div className="flex justify-between bg-gray-900 items-center pl-20 pr-20 pb-3 pt-3  ">
       <div className="h9 text-3xl font-bold">Tutu</div>
       <div className="flex justify-between pr-10 gap-5 items-center">
         <a

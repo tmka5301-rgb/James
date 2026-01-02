@@ -5,14 +5,12 @@ import { Header } from "@/components/Header";
 import { Main1 } from "@/components/Main1";
 import { Main2 } from "@/components/Main2";
 import { Skills } from "@/components/Skills";
-import { Tom } from "@/components/Tom";
 import { Work } from "@/components/Work";
 
 export const Home = () => {
   return (
-    <div className="max-w-7xl w-full m-auto bg-black text-white">
+    <div className="w-full m-auto bg-black text-white">
       <Header />
-      <Tom />
       <Main1 />
       <Main2 />
       <Skills />
