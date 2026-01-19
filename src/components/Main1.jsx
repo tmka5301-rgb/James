@@ -2,9 +2,9 @@ import React from "react";
 
 export const Main1 = () => {
   return (
-    <div className="flex color-white justify-items-center pl-20 pr-20 pt-24 pb-24">
-      <div className="flex w-7xl h-[364px] ">
-        <div className="w-[600px] h-[364px] flex-col  ">
+    <div className="flex flex-col bg-gray-900 items-center pl-20 pr-20 pt-24 pb-24">
+      <div className="flex w-[1200px] h-[364px] justify-between">
+        <div className="w-[600px] h-[364px] flex-col">
           <div className="w-[376px] h-72px text-3xl font-bold flex">
             Hi, I'm Ohidiin Uruul Sudlaach 👋
           </div>
@@ -50,8 +50,7 @@ export const Main1 = () => {
             </a>
           </div>
         </div>
-        <div className="w-[568px] h-[364px] justify-items-end">
-          {" "}
+        <div className="">
           <img className="w-[280px] h-80 " src="./james.webp" alt="" />
         </div>
       </div>
